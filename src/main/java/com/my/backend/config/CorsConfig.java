@@ -14,7 +14,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("api/**")
                         .allowedMethods("GET", "POST")
-                        .allowedOrigins("http://13.210.114.176")//react 서버주소
+                        .allowedOrigins("http://seegeegaja-front-app.s3-website-ap-southeast-2.amazonaws.com")//react 서버주소
                         .allowCredentials(true);
             }
         };
